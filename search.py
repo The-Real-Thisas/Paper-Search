@@ -33,6 +33,14 @@ def search():
 
     ◤ NOTE ◢
     ▷ Type 'exit' to leave.
+    ▷ DO NOT USE ' IN YOUR SEARCH.
+    """)
+
+@papersearch.command("version")
+def search():
+    print("""
+    ◤ VERSION: 1.1 ◢
+
     """)
 
 @papersearch.command("math")
